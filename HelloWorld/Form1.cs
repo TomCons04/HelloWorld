@@ -26,5 +26,10 @@ namespace HelloWorld
         {
             MessageBox.Show("Hello World");
         }
+
+        private void TxtBxName_TextChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello" + txtBxName.Text);
+        }
     }
 }
